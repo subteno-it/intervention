@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+    Copyright 2017 SYLEAM Info Services
+    License AGPL-3.0 or later (http://www.gnu.org/licenses/agpl).
+-->
+<odoo>
+    <data>
+        <record id="seq_intervention" model="ir.sequence">
+            <field name="name">Intervention</field>
+            <field name="code">intervention.request</field>
+            <field name="prefix">I%(y)s%(woy)s%(weekday)s%(h24)s%(min)s</field>
+            <field name="padding">0</field>
+            <field name="number_next">1</field>
+        </record>
+
+    </data>
+</odoo>

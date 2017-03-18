@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+    Copyright 2017 SYLEAM Info Services
+    License AGPL-3.0 or later (http://www.gnu.org/licenses/agpl).
+-->
+<odoo>
+    <data>
+        <record id="module_category_intervention" model="ir.module.category">
+            <field name="name">Interventions</field>
+            <field name="description">Helps you manage your interventions.</field>
+            <field name="sequence">20</field>
+        </record>
+
+        <record id="base.group_intervention_user" model="res.groups">
+            <field name="name">User</field>
+            <field name="category_id" ref="module_category_intervention"/>
+        </record>
+        <record id="base.group_intervention_manager" model="res.groups">
+            <field name="name">Manager</field>
+            <field name="category_id" ref="module_category_intervention"/>
+            <field name="implied_ids" eval="[(4, ref('base.group_intervention_user'))]"/>
+        </record>
+    </data>
+</odoo>

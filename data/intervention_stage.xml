@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+    Copyright 2017 SYLEAM Info Services
+    License AGPL-3.0 or later (http://www.gnu.org/licenses/agpl).
+-->
+<odoo>
+    <!-- stage "New" gets created by default with sequence 0-->
+    <record id="stage_in_progress" model="intervention.stage">
+        <field name="name">In Progress</field>
+        <field name="sequence">1</field>
+        <field name="team_ids" eval="[(4, ref('intervention_team1'))]"/>
+        <field name="is_close" eval="False"/>
+    </record>
+    <record id="stage_solved" model="intervention.stage">
+        <field name="name">Done</field>
+        <field name="team_ids" eval="[(4, ref('intervention_team1'))]"/>
+        <field name="sequence">2</field>
+        <field name="is_close" eval="True"/>
+    </record>
+    <record id="stage_cancelled" model="intervention.stage">
+        <field name="name">Cancelled</field>
+        <field name="sequence">3</field>
+        <field name="team_ids" eval="[(4, ref('intervention_team1'))]"/>
+        <field name="is_close" eval="True"/>
+        <field name="fold" eval="True"/>
+    </record>
+    
+</odoo>

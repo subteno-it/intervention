@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+    Copyright 2017 SYLEAM Info Services
+    License AGPL-3.0 or later (http://www.gnu.org/licenses/agpl).
+-->
+<odoo>
+    <!-- INTERVENTION.STAGE -->
+    <record id="intervention_stage_view_tree" model="ir.ui.view">
+        <field name="name">intervention.stages.tree</field>
+        <field name="model">intervention.stage</field>
+        <field name="arch" type="xml">
+            <tree string="Stage">
+                <field name="sequence" widget="handle" groups="base.group_no_one"/>
+                <field name="name"/>
+                <field name="is_close"/>
+            </tree>
+        </field>
+    </record>
+
+    <record id="intervention_stage_view_form" model="ir.ui.view">
+        <field name="name">intervention.stage.form</field>
+        <field name="model">intervention.stage</field>
+        <field name="arch" type="xml">
+            <form string="Stage Search">
+                <sheet>
+                    <group>
+                        <group>
+                            <field name="name"/>
+                            <field name="sequence" groups="base.group_no_one"/>
+                            <field name="team_ids" widget="many2many_tags" groups="base.group_no_one"/>
+                        </group>
+                        <group>
+                            <field name="is_close"/>
+                            <field name="fold"/>
+                        </group>
+                    </group>
+                </sheet>
+            </form>
+        </field>
+    </record>
+
+    <record id="intervention_stage_action" model="ir.actions.act_window">
+        <field name="name">Stages</field>
+        <field name="res_model">intervention.stage</field>
+        <field name="view_type">form</field>
+        <field name="view_mode">tree,form</field>
+        <field name="help" type="html">
+          <p class="oe_view_nocontent_create">
+            Click to create a stage in your intervention pipeline.
+          </p><p>
+            Stages will allow operators to easily track how a specific
+            requests are positioned in the process.
+          </p>
+        </field>
+    </record>
+
+    <menuitem id="intervention_stage_menu" action="intervention_stage_action"
+        sequence="3" parent="intervention.intervention_menu_config"
+        groups="base.group_no_one"/>
+    
+</odoo>

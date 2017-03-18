@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+    Copyright 2017 SYLEAM Info Services
+    License AGPL-3.0 or later (http://www.gnu.org/licenses/agpl).
+-->
+<odoo>
+    <!-- INTERVENTION.TAG -->
+    <record id="view_intervention_tag_tree" model="ir.ui.view">
+        <field name="name">intervention.tag.tree</field>
+        <field name="model">intervention.tag</field>
+        <field name="arch" type="xml">
+            <tree editable="top" string="Tag">
+                <field name="name"/>
+            </tree>
+        </field>
+    </record>
+
+    <record id="intervention_tag_action" model="ir.actions.act_window">
+        <field name="name">Intervention Tags</field>
+        <field name="res_model">intervention.tag</field>
+        <field name="view_type">form</field>
+        <field name="view_mode">tree,form</field>
+        <field name="help" type="html">
+            <p class="oe_view_nocontent_create">
+                Click to create a new intervention tag.
+                </p><p>
+                Tags allows to organize intervention.
+            </p>
+        </field>
+    </record>
+
+    <menuitem id="intervention_tag_menu" action="intervention_tag_action"
+        sequence="1" parent="intervention.intervention_menu_config"
+        groups="base.group_no_one"/>
+</odoo>

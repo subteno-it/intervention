@@ -18,111 +18,111 @@ msgstr ""
 #. module: intervention
 #: model:ir.ui.view,arch_db:intervention.view_intervention_request_search
 msgid "7 Days"
-msgstr "7 jours"
+msgstr ""
 
 #. module: intervention
 #: model:ir.ui.view,arch_db:intervention.intervention_team_view_kanban
 msgid "<span>View Requests</span>"
-msgstr "Vue des demandes"
+msgstr ""
 
 #. module: intervention
 #: model:ir.model.fields,field_description:intervention.field_intervention_team_description
 msgid "About Team"
-msgstr "À propos de l'équipe"
+msgstr ""
 
 #. module: intervention
 #: model:ir.model.fields,field_description:intervention.field_intervention_request_active
 msgid "Active"
-msgstr "Actif"
+msgstr ""
 
 #. module: intervention
 #: model:ir.ui.view,arch_db:intervention.view_intervention_request_form
 msgid "After Intervention"
-msgstr "Après l'intervention"
+msgstr ""
 
 #. module: intervention
 #: model:ir.ui.view,arch_db:intervention.view_intervention_request_kanban
 msgid "Archive"
-msgstr "Archiver"
+msgstr ""
 
 #. module: intervention
 #: model:ir.ui.view,arch_db:intervention.intervention_team_view_kanban
 #: model:ir.ui.view,arch_db:intervention.view_intervention_request_search
 msgid "Archived"
-msgstr "Archivé"
+msgstr ""
 
 #. module: intervention
 #: model:ir.ui.view,arch_db:intervention.intervention_team_view_form
 msgid "Assign members to this team so that they will see it in their dashboard. If no members are assigned, everyone will see this team."
-msgstr "Assign members to this team so that they will see it in their dashboard. If no members are assigned, everyone will see this team."
+msgstr ""
 
 #. module: intervention
 #: model:ir.ui.view,arch_db:intervention.view_intervention_request_search
 msgid "Assignee"
-msgstr "Assignee"
+msgstr ""
 
 #. module: intervention
 #: model:ir.ui.view,arch_db:intervention.view_intervention_request_form
 msgid "Before Intervention"
-msgstr "Before Intervention"
+msgstr ""
 
 #. module: intervention
 #: model:intervention.stage,name:intervention.stage_cancelled
 msgid "Cancelled"
-msgstr "Annulée"
+msgstr ""
 
 #. module: intervention
 #: model:ir.actions.act_window,help:intervention.intervention_request_action_Archived
 #: model:ir.actions.act_window,help:intervention.intervention_request_action_team
 msgid "Click create a new request."
-msgstr "Cliquer pour créer une nouvelle demande"
+msgstr ""
 
 #. module: intervention
 #: model:ir.actions.act_window,help:intervention.intervention_tag_action
 msgid "Click to create a new intervention tag."
-msgstr "Cliquer pour créer une nouvelle étiquette"
+msgstr ""
 
 #. module: intervention
 #: model:ir.actions.act_window,help:intervention.intervention_team_action
 msgid "Click to create a new request team."
-msgstr "Cliquer pour créer une nouvelle équipe"
+msgstr ""
 
 #. module: intervention
 #: model:ir.actions.act_window,help:intervention.intervention_stage_action
 msgid "Click to create a stage in your intervention pipeline."
-msgstr "Cliquer pour créer une étape dans votre pipeline"
+msgstr ""
 
 #. module: intervention
 #: model:ir.ui.view,arch_db:intervention.view_intervention_request_search
 msgid "Closed Requests"
-msgstr "Demandes fermées"
+msgstr ""
 
 #. module: intervention
 #: model:ir.model.fields,field_description:intervention.field_intervention_request_date_closed
 msgid "Closed on"
-msgstr "Fermé le"
+msgstr ""
 
 #. module: intervention
 #: model:ir.model.fields,field_description:intervention.field_intervention_stage_is_close
 msgid "Closing Kanban Stage"
-msgstr "Fermeture des étapes Kanban"
+msgstr ""
 
 #. module: intervention
 #: model:ir.model.fields,field_description:intervention.field_intervention_request_color
 #: model:ir.model.fields,field_description:intervention.field_intervention_team_color
 msgid "Color Index"
-msgstr "Couleur"
+msgstr ""
 
 #. module: intervention
 #: model:ir.model.fields,field_description:intervention.field_intervention_request_company_id
 #: model:ir.model.fields,field_description:intervention.field_intervention_team_company_id
 msgid "Company"
-msgstr "Société"
+msgstr ""
 
 #. module: intervention
 #: model:ir.ui.menu,name:intervention.intervention_menu_config
 msgid "Configuration"
-msgstr "Configuration"
+msgstr ""
 
 #. module: intervention
 #: model:ir.model.fields,field_description:intervention.field_intervention_request_create_uid
@@ -130,7 +130,7 @@ msgstr "Configuration"
 #: model:ir.model.fields,field_description:intervention.field_intervention_tag_create_uid
 #: model:ir.model.fields,field_description:intervention.field_intervention_team_create_uid
 msgid "Created by"
-msgstr "Créé par"
+msgstr ""
 
 #. module: intervention
 #: model:ir.model.fields,field_description:intervention.field_intervention_request_create_date
@@ -138,38 +138,38 @@ msgstr "Créé par"
 #: model:ir.model.fields,field_description:intervention.field_intervention_tag_create_date
 #: model:ir.model.fields,field_description:intervention.field_intervention_team_create_date
 msgid "Created on"
-msgstr "Créé le"
+msgstr ""
 
 #. module: intervention
 #: model:ir.model.fields,field_description:intervention.field_intervention_request_partner_id
 msgid "Customer"
-msgstr "Client"
+msgstr ""
 
 #. module: intervention
 #: model:ir.ui.view,arch_db:intervention.view_intervention_request_form
 msgid "Customer Information"
-msgstr "Information client"
+msgstr ""
 
 #. module: intervention
 #: model:ir.model.fields,field_description:intervention.field_intervention_request_customer_information
 msgid "Customer_information"
-msgstr "Customer_information"
+msgstr ""
 
 #. module: intervention
 #: model:ir.actions.act_window,name:intervention.intervention_team_dashboard_action_main
 #: model:ir.ui.menu,name:intervention.intervention_menu_team_dashboard
 msgid "Dashboard"
-msgstr "Tableau de bord"
+msgstr ""
 
 #. module: intervention
 #: model:ir.ui.view,arch_db:intervention.view_intervention_request_kanban
 msgid "Delete"
-msgstr "Supprimer"
+msgstr ""
 
 #. module: intervention
 #: model:ir.model.fields,field_description:intervention.field_intervention_request_description
 msgid "Description"
-msgstr "Description"
+msgstr ""
 
 #. module: intervention
 #: model:ir.model.fields,field_description:intervention.field_intervention_request_display_name
@@ -177,77 +177,77 @@ msgstr "Description"
 #: model:ir.model.fields,field_description:intervention.field_intervention_tag_display_name
 #: model:ir.model.fields,field_description:intervention.field_intervention_team_display_name
 msgid "Display Name"
-msgstr "Nom affiché"
+msgstr ""
 
 #. module: intervention
 #: model:intervention.stage,name:intervention.stage_solved
 msgid "Done"
-msgstr "Terminée"
+msgstr ""
 
 #. module: intervention
 #: model:ir.ui.view,arch_db:intervention.view_intervention_request_kanban
 msgid "Edit"
-msgstr "Modifier"
+msgstr ""
 
 #. module: intervention
 #: model:ir.model.fields,field_description:intervention.field_intervention_request_duration_effective
 msgid "Effective duration"
-msgstr "Durée réalisée"
+msgstr ""
 
 #. module: intervention
 #: model:ir.model.fields,field_description:intervention.field_intervention_request_date_effective_end
 msgid "Effective end date"
-msgstr "Date de fin"
+msgstr ""
 
 #. module: intervention
 #: model:ir.model.fields,field_description:intervention.field_intervention_request_date_effective_start
 msgid "Effective start date"
-msgstr "Date de début"
+msgstr ""
 
 #. module: intervention
 #: model:ir.model.fields,field_description:intervention.field_intervention_request_email_from
 msgid "Email"
-msgstr "Courriel"
+msgstr ""
 
 #. module: intervention
 #: model:ir.model.fields,field_description:intervention.field_intervention_stage_fold
 msgid "Folded"
-msgstr "Replié"
+msgstr ""
 
 #. module: intervention
 #: model:ir.model.fields,help:intervention.field_intervention_stage_fold
 msgid "Folded in kanban view"
-msgstr "Replié en vue kanban"
+msgstr ""
 
 #. module: intervention
 #: model:ir.ui.view,arch_db:intervention.intervention_team_view_form
 msgid "Follow this team to automatically track the events associated to tickets of this team."
-msgstr "Follow this team to automatically track the events associated to tickets of this team."
+msgstr ""
 
 #. module: intervention
 #: selection:intervention.request,satisfaction:0
 msgid "Furious"
-msgstr "Pas du tout satisfait"
+msgstr ""
 
 #. module: intervention
 #: model:ir.ui.view,arch_db:intervention.view_intervention_request_form
 msgid "General"
-msgstr "Général"
+msgstr ""
 
 #. module: intervention
 #: model:ir.ui.view,arch_db:intervention.view_intervention_request_search
 msgid "Group By"
-msgstr "Groupé par"
+msgstr ""
 
 #. module: intervention
 #: selection:intervention.request,satisfaction:0
 msgid "Happy"
-msgstr "Satisfait"
+msgstr ""
 
 #. module: intervention
 #: model:ir.module.category,description:intervention.module_category_intervention
 msgid "Helps you manage your interventions."
-msgstr "Helps you manage your interventions."
+msgstr ""
 
 #. module: intervention
 #: model:ir.model.fields,field_description:intervention.field_intervention_request_id
@@ -255,52 +255,52 @@ msgstr "Helps you manage your interventions."
 #: model:ir.model.fields,field_description:intervention.field_intervention_tag_id
 #: model:ir.model.fields,field_description:intervention.field_intervention_team_id
 msgid "ID"
-msgstr "ID"
+msgstr ""
 
 #. module: intervention
 #: model:ir.ui.view,arch_db:intervention.view_intervention_request_kanban
 msgid "Important Messages"
-msgstr "Important Messages"
+msgstr ""
 
 #. module: intervention
 #: model:intervention.stage,name:intervention.stage_in_progress
 msgid "In Progress"
-msgstr "En cours"
+msgstr ""
 
 #. module: intervention
 #: model:ir.model.fields,help:intervention.field_intervention_request_duration_planned
 msgid "Indicate estimated to do the intervention."
-msgstr "Indiquer la durée estimée de l'intervention."
+msgstr ""
 
 #. module: intervention
 #: model:ir.model.fields,help:intervention.field_intervention_request_duration_effective
 msgid "Indicate real time to do the intervention."
-msgstr "Indiquer la durée réelle de l'intervention."
+msgstr ""
 
 #. module: intervention
 #: model:ir.model.fields,help:intervention.field_intervention_request_date_effective_start
 msgid "Indicate the date of begin intervention"
-msgstr "Indiquer la date de début d'intervention"
+msgstr ""
 
 #. module: intervention
 #: model:ir.model.fields,help:intervention.field_intervention_request_date_planned_start
 msgid "Indicate the date of begin intervention planned"
-msgstr "Indiquer la date de début de l'intervention planifiée"
+msgstr ""
 
 #. module: intervention
 #: model:ir.model.fields,help:intervention.field_intervention_request_date_effective_end
 msgid "Indicate the date of end intervention"
-msgstr "Indiquer la date de fin d'intervention"
+msgstr ""
 
 #. module: intervention
 #: model:ir.model.fields,help:intervention.field_intervention_request_date_planned_end
 msgid "Indicate the date of end intervention planned"
-msgstr "Indiquer la date de fin prévue de l'intervention"
+msgstr ""
 
 #. module: intervention
 #: model:ir.model.fields,help:intervention.field_intervention_request_intervention_todo
 msgid "Indicate the description of this intervention to do"
-msgstr "Indiquer la description de l'intervention à faire"
+msgstr ""
 
 #. module: intervention
 #: model:ir.model,name:intervention.model_intervention_request
@@ -308,70 +308,70 @@ msgstr "Indiquer la description de l'intervention à faire"
 #: model:ir.ui.view,arch_db:intervention.view_intervention_request_form
 #: model:ir.ui.view,arch_db:intervention.view_intervention_request_tree
 msgid "Intervention"
-msgstr "Intervention"
+msgstr ""
 
 #. module: intervention
 #: model:ir.model.fields,field_description:intervention.field_intervention_request_partner_shipping_id
 msgid "Intervention Address"
-msgstr "Adresse d'intervention"
+msgstr ""
 
 #. module: intervention
 #: model:ir.model.fields,field_description:intervention.field_intervention_request_partner_order_id
 msgid "Intervention Contact"
-msgstr "Nom du contact"
+msgstr ""
 
 #. module: intervention
 #: model:ir.ui.view,arch_db:intervention.view_intervention_request_form
 msgid "Intervention Done"
-msgstr "Intervention terminée"
+msgstr ""
 
 #. module: intervention
 #: model:ir.model,name:intervention.model_intervention_tag
 msgid "Intervention Tag"
-msgstr "Étiquette"
+msgstr ""
 
 #. module: intervention
 #: model:ir.actions.act_window,name:intervention.intervention_tag_action
 #: model:ir.ui.menu,name:intervention.intervention_tag_menu
 msgid "Intervention Tags"
-msgstr "Étiquettes"
+msgstr ""
 
 #. module: intervention
 #: model:ir.model,name:intervention.model_intervention_team
 #: model:ir.model.fields,field_description:intervention.field_intervention_request_team_id
 #: model:ir.model.fields,field_description:intervention.field_intervention_team_name
 msgid "Intervention Team"
-msgstr "Équipe"
+msgstr ""
 
 #. module: intervention
 #: model:ir.ui.view,arch_db:intervention.intervention_team_view_form
 msgid "Intervention Team..."
-msgstr "Équipe..."
+msgstr ""
 
 #. module: intervention
 #: model:ir.ui.view,arch_db:intervention.view_intervention_request_form
 msgid "Intervention To Do"
-msgstr "Intervention à effectuer"
+msgstr ""
 
 #. module: intervention
 #: model:ir.ui.view,arch_db:intervention.view_intervention_request_search
 msgid "Intervention requests during last 7 days"
-msgstr "Intervention demandées durant les 7 derniers jours"
+msgstr ""
 
 #. module: intervention
 #: model:ir.model.fields,field_description:intervention.field_intervention_request_intervention_todo
 msgid "Intervention to do"
-msgstr "Intervention à effectuer"
+msgstr ""
 
 #. module: intervention
 #: model:ir.module.category,name:intervention.module_category_intervention
 msgid "Interventions"
-msgstr "INterventions"
+msgstr ""
 
 #. module: intervention
 #: model:ir.model.fields,field_description:intervention.field_intervention_request_partner_invoice_id
 msgid "Invoice Address"
-msgstr "Adresse de facturation"
+msgstr ""
 
 #. module: intervention
 #: model:ir.model.fields,field_description:intervention.field_intervention_request___last_update
@@ -379,7 +379,7 @@ msgstr "Adresse de facturation"
 #: model:ir.model.fields,field_description:intervention.field_intervention_tag___last_update
 #: model:ir.model.fields,field_description:intervention.field_intervention_team___last_update
 msgid "Last Modified on"
-msgstr "Dernière modification le"
+msgstr ""
 
 #. module: intervention
 #: model:ir.model.fields,field_description:intervention.field_intervention_request_write_uid
@@ -387,7 +387,7 @@ msgstr "Dernière modification le"
 #: model:ir.model.fields,field_description:intervention.field_intervention_tag_write_uid
 #: model:ir.model.fields,field_description:intervention.field_intervention_team_write_uid
 msgid "Last Updated by"
-msgstr "Dernière modification par"
+msgstr ""
 
 #. module: intervention
 #: model:ir.model.fields,field_description:intervention.field_intervention_request_write_date
@@ -395,79 +395,79 @@ msgstr "Dernière modification par"
 #: model:ir.model.fields,field_description:intervention.field_intervention_tag_write_date
 #: model:ir.model.fields,field_description:intervention.field_intervention_team_write_date
 msgid "Last Updated on"
-msgstr "Dernière modification le"
+msgstr ""
 
 #. module: intervention
 #: model:ir.model.fields,field_description:intervention.field_intervention_request_partner_address_mobile
 msgid "Mobile"
-msgstr "Portable"
+msgstr ""
 
 #. module: intervention
 #: model:ir.ui.view,arch_db:intervention.intervention_team_view_kanban
 msgid "More <i class=\"fa fa-caret-down\"/>"
-msgstr "Plus <i class=\"fa fa-caret-down\"/>"
+msgstr ""
 
 #. module: intervention
 #: model:ir.ui.view,arch_db:intervention.view_intervention_request_search
 msgid "My Requests"
-msgstr "Mes demandes"
+msgstr ""
 
 #. module: intervention
 #: model:ir.model.fields,field_description:intervention.field_intervention_request_name
 #: model:ir.model.fields,field_description:intervention.field_intervention_stage_name
 #: model:ir.model.fields,field_description:intervention.field_intervention_tag_name
 msgid "Name"
-msgstr "Nom"
+msgstr ""
 
 #. module: intervention
 #: model:ir.model.fields,field_description:intervention.field_intervention_request_number_request
 msgid "Number Request"
-msgstr "Référence"
+msgstr ""
 
 #. module: intervention
 #: model:ir.ui.view,arch_db:intervention.view_intervention_request_search
 msgid "Open Requests"
-msgstr "Demandes ouvertes"
+msgstr ""
 
 #. module: intervention
 #: model:ir.ui.view,arch_db:intervention.view_intervention_request_search
 msgid "Partner"
-msgstr "Client"
+msgstr ""
 
 #. module: intervention
 #: model:ir.model.fields,field_description:intervention.field_intervention_request_partner_address_phone
 msgid "Phone"
-msgstr "Téléphone"
+msgstr ""
 
 #. module: intervention
 #: model:ir.model.fields,field_description:intervention.field_intervention_request_date_planned_end
 msgid "Planned End Date"
-msgstr "Date de fin prévue"
+msgstr ""
 
 #. module: intervention
 #: model:ir.model.fields,field_description:intervention.field_intervention_request_date_planned_start
 msgid "Planned Start Date"
-msgstr "Date de début prévue"
+msgstr ""
 
 #. module: intervention
 #: model:ir.model.fields,field_description:intervention.field_intervention_request_duration_planned
 msgid "Planned duration"
-msgstr "Durée estimée"
+msgstr ""
 
 #. module: intervention
 #: model:intervention.team,name:intervention.intervention_team1
 msgid "Production"
-msgstr "Production"
+msgstr ""
 
 #. module: intervention
 #: model:ir.ui.view,arch_db:intervention.intervention_team_view_form
 msgid "Productivity"
-msgstr "Productivité"
+msgstr ""
 
 #. module: intervention
 #: model:ir.ui.view,arch_db:intervention.intervention_team_view_form
 msgid "Public Description..."
-msgstr "Description publique..."
+msgstr ""
 
 #. module: intervention
 #: model:ir.actions.act_window,name:intervention.intervention_request_action_Archived
@@ -475,43 +475,43 @@ msgstr "Description publique..."
 #: model:ir.model.fields,field_description:intervention.field_intervention_team_request_ids
 #: model:ir.ui.view,arch_db:intervention.intervention_team_view_kanban
 msgid "Requests"
-msgstr "Demandes"
+msgstr ""
 
 #. module: intervention
 #: model:ir.ui.view,arch_db:intervention.view_intervention_request_search
 msgid "Requests Search"
-msgstr "Demandes"
+msgstr ""
 
 #. module: intervention
 #: model:ir.model.fields,help:intervention.field_intervention_stage_is_close
 msgid "Requests in this stage are considered as done."
-msgstr "Les demandes dans cetté étape sont considérés comme terminées"
+msgstr ""
 
 #. module: intervention
 #: model:ir.model.fields,field_description:intervention.field_intervention_request_user_id
 msgid "Responsible"
-msgstr "Intervenant"
+msgstr ""
 
 #. module: intervention
 #: model:ir.model.fields,field_description:intervention.field_intervention_request_satisfaction
 msgid "Satisfaction"
-msgstr "Satisfaction"
+msgstr ""
 
 #. module: intervention
 #: model:ir.model.fields,field_description:intervention.field_intervention_stage_sequence
 #: model:ir.model.fields,field_description:intervention.field_intervention_team_sequence
 msgid "Sequence"
-msgstr "Séquence"
+msgstr ""
 
 #. module: intervention
 #: model:ir.ui.view,arch_db:intervention.intervention_team_view_kanban
 msgid "Settings"
-msgstr "Configuration"
+msgstr ""
 
 #. module: intervention
 #: model:ir.model.fields,help:intervention.field_intervention_stage_team_ids
 msgid "Specific team that uses this stage. Other teams will not be able to see or use this stage."
-msgstr "Specific team that uses this stage. Other teams will not be able to see or use this stage."
+msgstr ""
 
 #. module: intervention
 #: model:ir.model,name:intervention.model_intervention_stage
@@ -519,170 +519,169 @@ msgstr "Specific team that uses this stage. Other teams will not be able to see 
 #: model:ir.ui.view,arch_db:intervention.intervention_stage_view_tree
 #: model:ir.ui.view,arch_db:intervention.view_intervention_request_search
 msgid "Stage"
-msgstr "Étape"
+msgstr ""
 
 #. module: intervention
 #: model:ir.ui.view,arch_db:intervention.intervention_stage_view_form
 msgid "Stage Search"
-msgstr "Étape"
+msgstr ""
 
 #. module: intervention
 #: model:ir.actions.act_window,name:intervention.intervention_stage_action
 #: model:ir.model.fields,field_description:intervention.field_intervention_team_stage_ids
 #: model:ir.ui.menu,name:intervention.intervention_stage_menu
 msgid "Stages"
-msgstr "Étapes"
+msgstr ""
 
 #. module: intervention
 #: model:ir.model.fields,help:intervention.field_intervention_team_stage_ids
 msgid "Stages the team will use. This team's requests will only be able to be in these stages."
-msgstr "Stages the team will use. This team's requests will only be able to be in these stages."
+msgstr ""
 
 #. module: intervention
 #: model:ir.actions.act_window,help:intervention.intervention_stage_action
 msgid "Stages will allow operators to easily track how a specific\n"
 "            requests are positioned in the process."
-msgstr "Stages will allow operators to easily track how a specific\n"
-"            requests are positioned in the process."
+msgstr ""
 
 #. module: intervention
 #: model:ir.ui.view,arch_db:intervention.view_intervention_tag_tree
 msgid "Tag"
-msgstr "Étiquette"
+msgstr ""
 
 #. module: intervention
 #: model:ir.model.fields,field_description:intervention.field_intervention_request_tag_ids
 msgid "Tags"
-msgstr "Étiquettes"
+msgstr ""
 
 #. module: intervention
 #: model:ir.actions.act_window,help:intervention.intervention_tag_action
 msgid "Tags allows to organize intervention."
-msgstr "Étiquettes autorisées pour organiser les interventions"
+msgstr ""
 
 #. module: intervention
 #: model:ir.model.fields,field_description:intervention.field_intervention_stage_team_ids
 #: model:ir.ui.view,arch_db:intervention.view_intervention_request_search
 msgid "Team"
-msgstr "Équipe"
+msgstr ""
 
 #. module: intervention
 #: model:ir.model.fields,field_description:intervention.field_intervention_team_member_ids
 msgid "Team Members"
-msgstr "Membres de l'équipe"
+msgstr ""
 
 #. module: intervention
 #: model:ir.actions.act_window,help:intervention.intervention_team_action
 msgid "Teams allows to organize interventions."
-msgstr "Équipes autorisés à organiser les interventions"
+msgstr ""
 
 #. module: intervention
 #: model:ir.model.fields,help:intervention.field_intervention_request_partner_invoice_id
 msgid "The name and address for the invoice"
-msgstr "Nom et adresse pour la facturation"
+msgstr ""
 
 #. module: intervention
 #: model:ir.model.fields,help:intervention.field_intervention_request_partner_order_id
 msgid "The name and address of the contact that requested the intervention."
-msgstr "Le nom et l'adresse du contact qui a demandé l'intervention."
+msgstr ""
 
 #. module: intervention
 #: model:ir.model.fields,help:intervention.field_intervention_request_email_from
 msgid "These people will receive email."
-msgstr "La personne qui recevra le mail"
+msgstr ""
 
 #. module: intervention
 #: model:ir.ui.view,arch_db:intervention.view_intervention_request_search
 msgid "Today"
-msgstr "Aujourd'hui"
+msgstr ""
 
 #. module: intervention
 #: model:ir.ui.view,arch_db:intervention.view_intervention_request_search
 msgid "Todays's intervention Requests"
-msgstr "Todays's intervention Requests"
+msgstr ""
 
 #. module: intervention
 #: model:ir.ui.view,arch_db:intervention.view_intervention_request_kanban
 msgid "Unarchive"
-msgstr "Désarchiver"
+msgstr ""
 
 #. module: intervention
 #: selection:intervention.request,satisfaction:0
 msgid "Unhappy"
-msgstr "Peu satisfait"
+msgstr ""
 
 #. module: intervention
 #: selection:intervention.request,satisfaction:0
 msgid "Very Happy"
-msgstr "Très satisfait"
+msgstr ""
 
 #. module: intervention
 #: model:ir.actions.act_window,help:intervention.intervention_team_dashboard_action_main
 msgid "Your teams will appear here."
-msgstr "Your teams will appear here."
+msgstr ""
 
 #. module: intervention
 #: code:addons/intervention/report/inter_report.py:42
 #: code:addons/intervention/report/inter_ticket.py:43
 #, python-format
 msgid "friday"
-msgstr "vendredi"
+msgstr ""
 
 #. module: intervention
 #: model:ir.ui.view,arch_db:intervention.intervention_team_view_tree
 msgid "intervention Team"
-msgstr "intervention Team"
+msgstr ""
 
 #. module: intervention
 #: model:ir.actions.act_window,name:intervention.intervention_team_action
 #: model:ir.ui.menu,name:intervention.intervention_team_menu
 msgid "intervention Teams"
-msgstr "intervention Teams"
+msgstr ""
 
 #. module: intervention
 #: code:addons/intervention/report/inter_report.py:38
 #: code:addons/intervention/report/inter_ticket.py:39
 #, python-format
 msgid "monday"
-msgstr "lundi"
+msgstr ""
 
 #. module: intervention
 #: code:addons/intervention/report/inter_report.py:43
 #: code:addons/intervention/report/inter_ticket.py:44
 #, python-format
 msgid "saturday"
-msgstr "samedi"
+msgstr ""
 
 #. module: intervention
 #: code:addons/intervention/report/inter_report.py:37
 #: code:addons/intervention/report/inter_ticket.py:38
 #, python-format
 msgid "sunday"
-msgstr "dimanche"
+msgstr ""
 
 #. module: intervention
 #: model:ir.ui.view,arch_db:intervention.intervention_team_view_form
 msgid "team search"
-msgstr "team search"
+msgstr ""
 
 #. module: intervention
 #: code:addons/intervention/report/inter_report.py:41
 #: code:addons/intervention/report/inter_ticket.py:42
 #, python-format
 msgid "thursday"
-msgstr "jeudi"
+msgstr ""
 
 #. module: intervention
 #: code:addons/intervention/report/inter_report.py:39
 #: code:addons/intervention/report/inter_ticket.py:40
 #, python-format
 msgid "tuesday"
-msgstr "mardi"
+msgstr ""
 
 #. module: intervention
 #: code:addons/intervention/report/inter_report.py:40
 #: code:addons/intervention/report/inter_ticket.py:41
 #, python-format
 msgid "wednesday"
-msgstr "mercredi"
+msgstr ""
 
