@@ -20,7 +20,7 @@
                             <span t-field="o.name" />
                         </h2>
 
-                        <table class="table table-bordered tbl-informations">
+                        <table class="table table-bordered tbl-informations mt16 mb16">
                             <thead>
                                 <tr>
                                     <th t-if="o.user_id">Responsible</th>
