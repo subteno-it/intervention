@@ -40,6 +40,7 @@ Features:
         'views/intervention_tag.xml',
         'views/intervention_team.xml',
         'views/intervention_stage.xml',
+        'views/res_company.xml',
     ],
     'installable': True,
     'auto_install': False,

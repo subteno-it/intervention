@@ -6,3 +6,4 @@ import intervention_team
 import intervention_tag
 import intervention_request
 import intervention_stage
+import res_company
