@@ -6,11 +6,14 @@
 <odoo>
     <!-- Report for Intervention Report -->
     <template id="intervention_report_document">
-        <t t-name="intervention.report_intervention_report">
-            <t t-call="report.external_layout">
-                <div class="page">
-                    testbis
-                </div>
+        <t t-call="report.html_container">
+            <t t-foreach="docs" t-as="o">
+                <t t-call="report.external_layout">
+                    <div class="page">
+                        testbis
+                        <span t-field="o.name" />
+                    </div>
+                </t>
             </t>
         </t>
     </template>
