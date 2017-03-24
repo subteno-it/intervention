@@ -32,6 +32,7 @@ Features:
         'data/intervention_stage.xml',
 
         'report/actions.xml',
+        'report/assets.xml',
         'report/intervention_voucher_document.xml',
         'report/intervention_report_document.xml',
 
