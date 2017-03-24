@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+    Copyright 2017 SYLEAM Info Services
+    License AGPL-3.0 or later (http://www.gnu.org/licenses/agpl).
+-->
+<odoo>
+    <!-- Report for Intervention Report -->
+    <template id="intervention_report_document">
+        <t t-name="intervention.report_intervention_report">
+            <t t-call="report.external_layout">
+                <div class="page">
+                    testbis
+                </div>
+            </t>
+        </t>
+    </template>
+</odoo>

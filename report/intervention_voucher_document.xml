@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+    Copyright 2017 SYLEAM Info Services
+    License AGPL-3.0 or later (http://www.gnu.org/licenses/agpl).
+-->
+<odoo>
+    <!-- Report for Intervention Voucher -->
+    <template id="intervention_voucher_document">
+        <t t-name="intervention.report_intervention_voucher">
+            <t t-call="report.external_layout">
+                <div class="page">
+                    test
+                </div>
+            </t>
+        </t>
+    </template>
+</odoo>
