@@ -13,6 +13,7 @@ INTERVENTION_SATISFACTION = [
     ('3', 'Furious'),
 ]
 
+
 class InterventionRequest(models.Model):
     _name = 'intervention.request'
     _inherit = ['mail.thread', 'ir.needaction_mixin']
@@ -94,8 +95,6 @@ class InterventionRequest(models.Model):
     @api.onchange('team_id')
     def _onchange_team_id(self):
         if self.team_id:
-            import pdb
-            pdb.set_trace()
             update_vals = self._onchange_team_get_values(self.team_id)
             if not self.stage_id or self.stage_id not in self.team_id.stage_ids:
                 self.stage_id = update_vals['stage_id']

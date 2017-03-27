@@ -1,0 +1,41 @@
+/**
+ * Copyright 2017 SYLEAM Info Services
+ * License AGPL-3.0 or later (http://www.gnu.org/licenses/agpl).
+**/
+
+/* ===== Utils ===== */
+.brad0 {
+    border-radius: 0px;
+}
+.ml10 {
+    margin-left: 10px;
+}
+.mt15 {
+    margin-top: 15px;
+}
+.mt256 {
+    margin-top: 256px;
+}
+.minh60 {
+    min-height: 60px;
+}
+.minh250 {
+    min-height: 250px;
+}
+.minh500 {
+    min-height: 500px;
+}
+.w45 {
+    width: 45px;
+}
+
+/* ===== Report ===== */
+.span-to-checkbox {
+    border: 2px solid black;
+    display: inline-block;
+    height: 15px;
+    width: 15px;
+}
+.tbl-informations th {
+    background-color: #F5F5F5;
+}

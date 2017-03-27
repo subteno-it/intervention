@@ -12,6 +12,7 @@
     'depends': [
         'base',
         'mail',
+        'report',
     ],
     'description': """
 Intervention - Intervention Management App
@@ -25,13 +26,21 @@ Features:
     'data': [
         'security/intervention_security.xml',
         'security/ir.model.access.csv',
+
         'data/ir_sequence.xml',
         'data/intervention_team.xml',
         'data/intervention_stage.xml',
+
+        'report/actions.xml',
+        'report/assets.xml',
+        'report/intervention_voucher_document.xml',
+        'report/intervention_report_document.xml',
+
         'views/intervention_request.xml',
         'views/intervention_tag.xml',
         'views/intervention_team.xml',
         'views/intervention_stage.xml',
+        'views/res_company.xml',
     ],
     'installable': True,
     'auto_install': False,

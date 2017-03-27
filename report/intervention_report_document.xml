@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+    Copyright 2017 SYLEAM Info Services
+    License AGPL-3.0 or later (http://www.gnu.org/licenses/agpl).
+-->
+<odoo>
+    <!-- Report for Intervention Report -->
+    <template id="intervention_report_document">
+        <t t-call="report.html_container">
+            <t t-foreach="docs" t-as="o">
+                <t t-call="report.external_layout">
+                    <div class="page">
+                        <div class="row">
+                            <div class="col-xs-5 col-xs-offset-7">
+                                <address t-field="o.partner_id" t-options="{&quot;widget&quot;: &quot;contact&quot;, &quot;fields&quot;: [&quot;address&quot;, &quot;name&quot;], &quot;no_marker&quot;: True}"/>
+                            </div>
+                        </div>
+
+                        <h2>
+                            <span t-field="o.name" />
+                        </h2>
+
+                        <table class="table table-bordered tbl-informations mt16 mb16">
+                            <thead>
+                                <tr>
+                                    <th t-if="o.user_id">Responsible</th>
+                                    <th t-if="o.number_request">Intervention #</th>
+                                    <th t-if="o.date_planned_start">Date</th>
+                                    <th t-if="o.date_planned_start and o.date_planned_end">Hours</th>
+                                </tr>
+                            </thead>
+
+                            <tbody>
+                                <tr>
+                                    <td t-if="o.user_id"><span t-field="o.user_id" /></td>
+                                    <td t-if="o.number_request"><span t-field="o.number_request" /></td>
+                                    <td t-if="o.date_planned_start"><span t-field="o.date_planned_start" t-field-options="{&quot;widget&quot;: &quot;date&quot;}" /></td>
+                                    <td t-if="o.date_planned_start and o.date_planned_end">
+                                        <span>From</span>
+                                        <span t-field="o.date_planned_start" t-field-options="{&quot;format&quot;: &quot;HH:mm&quot;}" />
+                                        <span> to </span>
+                                        <span t-field="o.date_planned_end" t-field-options="{&quot;format&quot;: &quot;HH:mm&quot;}" />
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
+
+                        <div class="row">
+                            <div class="col-xs-12">
+                                <div class="panel panel-default brad0">
+                                    <div class="panel-heading brad0">
+                                        <strong>Description of the intervention</strong>
+                                    </div>
+                                    <div class="panel-body minh500">
+                                    </div>
+                                    <div class="panel-footer brad0">
+                                        <strong><i class="fa fa-chevron-right" /> <span t-field="o.company_id.note_intervention_report" /></strong>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </t>
+            </t>
+        </t>
+    </template>
+</odoo>
