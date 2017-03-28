@@ -6,8 +6,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 10.0+e\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-03-20 16:02+0000\n"
-"PO-Revision-Date: 2017-03-20 16:02+0000\n"
+"POT-Creation-Date: 2017-03-28 07:55+0000\n"
+"PO-Revision-Date: 2017-03-28 07:55+0000\n"
 "Last-Translator: <>\n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
@@ -21,8 +21,87 @@ msgid "7 Days"
 msgstr ""
 
 #. module: intervention
+#: model:ir.ui.view,arch_db:intervention.intervention_voucher_document
+msgid "<span class=\"span-to-checkbox\"/>\n"
+"                                        <span>No</span>"
+msgstr ""
+
+#. module: intervention
+#: model:ir.ui.view,arch_db:intervention.intervention_voucher_document
+msgid "<span class=\"span-to-checkbox\"/>\n"
+"                                        <span>Yes, specify which <i class=\"fa fa-long-arrow-right\"/></span>"
+msgstr ""
+
+#. module: intervention
+#: model:ir.ui.view,arch_db:intervention.intervention_report_document
+#: model:ir.ui.view,arch_db:intervention.intervention_voucher_document
+msgid "<span> to </span>"
+msgstr ""
+
+#. module: intervention
+#: model:ir.ui.view,arch_db:intervention.intervention_report_document
+#: model:ir.ui.view,arch_db:intervention.intervention_voucher_document
+msgid "<span>From</span>"
+msgstr ""
+
+#. module: intervention
 #: model:ir.ui.view,arch_db:intervention.intervention_team_view_kanban
 msgid "<span>View Requests</span>"
+msgstr ""
+
+#. module: intervention
+#: model:ir.ui.view,arch_db:intervention.intervention_voucher_document
+msgid "<strong>Action(s) carried out during the intervention</strong>"
+msgstr ""
+
+#. module: intervention
+#: model:ir.ui.view,arch_db:intervention.intervention_voucher_document
+msgid "<strong>Action(s) requested :</strong>"
+msgstr ""
+
+#. module: intervention
+#: model:ir.ui.view,arch_db:intervention.intervention_voucher_document
+msgid "<strong>After Intervention</strong>"
+msgstr ""
+
+#. module: intervention
+#: model:ir.ui.view,arch_db:intervention.intervention_report_document
+msgid "<strong>Description of the intervention</strong>"
+msgstr ""
+
+#. module: intervention
+#: model:ir.ui.view,arch_db:intervention.intervention_voucher_document
+msgid "<strong>Follow-up :</strong>"
+msgstr ""
+
+#. module: intervention
+#: model:ir.ui.view,arch_db:intervention.intervention_voucher_document
+msgid "<strong>Name and visa of the interlocutor</strong>"
+msgstr ""
+
+#. module: intervention
+#: model:ir.ui.view,arch_db:intervention.intervention_voucher_document
+msgid "<strong>Observation(s) :</strong>"
+msgstr ""
+
+#. module: intervention
+#: model:ir.ui.view,arch_db:intervention.intervention_voucher_document
+msgid "<strong>Responsive :</strong>"
+msgstr ""
+
+#. module: intervention
+#: model:ir.ui.view,arch_db:intervention.intervention_voucher_document
+msgid "<strong>Signature and stamp of the beneficiary customer :</strong>"
+msgstr ""
+
+#. module: intervention
+#: model:ir.ui.view,arch_db:intervention.intervention_voucher_document
+msgid "<strong>Your feedback and idea for improvement :</strong>"
+msgstr ""
+
+#. module: intervention
+#: model:ir.ui.view,arch_db:intervention.intervention_voucher_document
+msgid "<strong>Your satisfaction about this intervention :</strong>"
 msgstr ""
 
 #. module: intervention
@@ -114,6 +193,11 @@ msgid "Color Index"
 msgstr ""
 
 #. module: intervention
+#: model:ir.model,name:intervention.model_res_company
+msgid "Companies"
+msgstr ""
+
+#. module: intervention
 #: model:ir.model.fields,field_description:intervention.field_intervention_request_company_id
 #: model:ir.model.fields,field_description:intervention.field_intervention_team_company_id
 msgid "Company"
@@ -159,6 +243,12 @@ msgstr ""
 #: model:ir.actions.act_window,name:intervention.intervention_team_dashboard_action_main
 #: model:ir.ui.menu,name:intervention.intervention_menu_team_dashboard
 msgid "Dashboard"
+msgstr ""
+
+#. module: intervention
+#: model:ir.ui.view,arch_db:intervention.intervention_report_document
+#: model:ir.ui.view,arch_db:intervention.intervention_voucher_document
+msgid "Date"
 msgstr ""
 
 #. module: intervention
@@ -250,6 +340,12 @@ msgid "Helps you manage your interventions."
 msgstr ""
 
 #. module: intervention
+#: model:ir.ui.view,arch_db:intervention.intervention_report_document
+#: model:ir.ui.view,arch_db:intervention.intervention_voucher_document
+msgid "Hours"
+msgstr ""
+
+#. module: intervention
 #: model:ir.model.fields,field_description:intervention.field_intervention_request_id
 #: model:ir.model.fields,field_description:intervention.field_intervention_stage_id
 #: model:ir.model.fields,field_description:intervention.field_intervention_tag_id
@@ -311,6 +407,12 @@ msgid "Intervention"
 msgstr ""
 
 #. module: intervention
+#: model:ir.ui.view,arch_db:intervention.intervention_report_document
+#: model:ir.ui.view,arch_db:intervention.intervention_voucher_document
+msgid "Intervention #"
+msgstr ""
+
+#. module: intervention
 #: model:ir.model.fields,field_description:intervention.field_intervention_request_partner_shipping_id
 msgid "Intervention Address"
 msgstr ""
@@ -323,6 +425,11 @@ msgstr ""
 #. module: intervention
 #: model:ir.ui.view,arch_db:intervention.view_intervention_request_form
 msgid "Intervention Done"
+msgstr ""
+
+#. module: intervention
+#: model:ir.actions.report.xml,name:intervention.report_intervention_report
+msgid "Intervention Report"
 msgstr ""
 
 #. module: intervention
@@ -354,8 +461,23 @@ msgid "Intervention To Do"
 msgstr ""
 
 #. module: intervention
+#: model:ir.actions.report.xml,name:intervention.report_intervention_voucher
+msgid "Intervention Voucher"
+msgstr ""
+
+#. module: intervention
+#: model:ir.ui.view,arch_db:intervention.intervention_voucher_document
+msgid "Intervention end at : ____ h ____ min."
+msgstr ""
+
+#. module: intervention
 #: model:ir.ui.view,arch_db:intervention.view_intervention_request_search
 msgid "Intervention requests during last 7 days"
+msgstr ""
+
+#. module: intervention
+#: model:ir.ui.view,arch_db:intervention.intervention_voucher_document
+msgid "Intervention start at : ____ h ____ min."
 msgstr ""
 
 #. module: intervention
@@ -365,6 +487,7 @@ msgstr ""
 
 #. module: intervention
 #: model:ir.module.category,name:intervention.module_category_intervention
+#: model:ir.ui.view,arch_db:intervention.view_company_form
 msgid "Interventions"
 msgstr ""
 
@@ -417,6 +540,16 @@ msgstr ""
 #: model:ir.model.fields,field_description:intervention.field_intervention_stage_name
 #: model:ir.model.fields,field_description:intervention.field_intervention_tag_name
 msgid "Name"
+msgstr ""
+
+#. module: intervention
+#: model:ir.model.fields,field_description:intervention.field_res_company_note_intervention_report
+msgid "Note for intervention report"
+msgstr ""
+
+#. module: intervention
+#: model:ir.model.fields,help:intervention.field_res_company_note_intervention_report
+msgid "Note you will see in intervention report on the footer of the description"
 msgstr ""
 
 #. module: intervention
@@ -489,6 +622,8 @@ msgstr ""
 
 #. module: intervention
 #: model:ir.model.fields,field_description:intervention.field_intervention_request_user_id
+#: model:ir.ui.view,arch_db:intervention.intervention_report_document
+#: model:ir.ui.view,arch_db:intervention.intervention_voucher_document
 msgid "Responsible"
 msgstr ""
 
@@ -621,13 +756,6 @@ msgid "Your teams will appear here."
 msgstr ""
 
 #. module: intervention
-#: code:addons/intervention/report/inter_report.py:42
-#: code:addons/intervention/report/inter_ticket.py:43
-#, python-format
-msgid "friday"
-msgstr ""
-
-#. module: intervention
 #: model:ir.ui.view,arch_db:intervention.intervention_team_view_tree
 msgid "intervention Team"
 msgstr ""
@@ -639,49 +767,7 @@ msgid "intervention Teams"
 msgstr ""
 
 #. module: intervention
-#: code:addons/intervention/report/inter_report.py:38
-#: code:addons/intervention/report/inter_ticket.py:39
-#, python-format
-msgid "monday"
-msgstr ""
-
-#. module: intervention
-#: code:addons/intervention/report/inter_report.py:43
-#: code:addons/intervention/report/inter_ticket.py:44
-#, python-format
-msgid "saturday"
-msgstr ""
-
-#. module: intervention
-#: code:addons/intervention/report/inter_report.py:37
-#: code:addons/intervention/report/inter_ticket.py:38
-#, python-format
-msgid "sunday"
-msgstr ""
-
-#. module: intervention
 #: model:ir.ui.view,arch_db:intervention.intervention_team_view_form
 msgid "team search"
-msgstr ""
-
-#. module: intervention
-#: code:addons/intervention/report/inter_report.py:41
-#: code:addons/intervention/report/inter_ticket.py:42
-#, python-format
-msgid "thursday"
-msgstr ""
-
-#. module: intervention
-#: code:addons/intervention/report/inter_report.py:39
-#: code:addons/intervention/report/inter_ticket.py:40
-#, python-format
-msgid "tuesday"
-msgstr ""
-
-#. module: intervention
-#: code:addons/intervention/report/inter_report.py:40
-#: code:addons/intervention/report/inter_ticket.py:41
-#, python-format
-msgid "wednesday"
 msgstr ""
 
