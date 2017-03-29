@@ -66,8 +66,8 @@
                                     </div>
 
                                     <div class="col-xs-12">
-                                        <div class="panel panel-default brad0">
-                                            <div class="panel-heading brad0" name="before-intervention">
+                                        <div class="panel panel-default brad0" name="before-intervention">
+                                            <div class="panel-heading brad0">
                                                 <strong>Action(s) carried out during the intervention</strong>
                                             </div>
                                             <div class="panel-body minh250">
