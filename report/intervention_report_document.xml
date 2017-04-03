@@ -27,6 +27,7 @@
                                     <th t-if="o.number_request">Intervention #</th>
                                     <th t-if="o.date_planned_start">Date</th>
                                     <th t-if="o.date_planned_start and o.date_planned_end">Hours</th>
+                                    <th t-if="o.partner_shipping_id">Intervention location</th>
                                 </tr>
                             </thead>
 
@@ -41,6 +42,7 @@
                                         <span> to </span>
                                         <span t-field="o.date_planned_end" t-field-options="{&quot;format&quot;: &quot;HH:mm&quot;}" />
                                     </td>
+                                    <td t-if="o.partner_shipping_id"><span t-field="o.partner_shipping_id" /></td>
                                 </tr>
                             </tbody>
                         </table>
