@@ -6,8 +6,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 10.0+e\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-03-28 08:41+0000\n"
-"PO-Revision-Date: 2017-03-28 08:41+0000\n"
+"POT-Creation-Date: 2017-04-03 13:38+0000\n"
+"PO-Revision-Date: 2017-04-03 13:38+0000\n"
 "Last-Translator: <>\n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
@@ -88,7 +88,7 @@ msgstr "<strong>Observation(s) :</strong>"
 
 #. module: intervention
 #: model:ir.ui.view,arch_db:intervention.intervention_voucher_document
-msgid "<strong>Responsive :</strong>"
+msgid "<strong>Responsible :</strong>"
 msgstr "<strong>Intervenant</strong>"
 
 #. module: intervention
@@ -471,6 +471,12 @@ msgstr "Bon d'intervention"
 #: model:ir.ui.view,arch_db:intervention.intervention_voucher_document
 msgid "Intervention end at : ____ h ____ min."
 msgstr "Fin d'intervention à : ____ h ____ min."
+
+#. module: intervention
+#: model:ir.ui.view,arch_db:intervention.intervention_report_document
+#: model:ir.ui.view,arch_db:intervention.intervention_voucher_document
+msgid "Intervention location"
+msgstr "Lieu d'intervention"
 
 #. module: intervention
 #: model:ir.ui.view,arch_db:intervention.view_intervention_request_search
