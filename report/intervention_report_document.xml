@@ -52,6 +52,7 @@
                                         <strong>Description of the intervention</strong>
                                     </div>
                                     <div class="panel-body minh500">
+                                        <div t-field="o.description" />
                                     </div>
                                     <div class="panel-footer brad0">
                                         <strong><i class="fa fa-chevron-right" /> <span t-field="o.company_id.note_intervention_report" /></strong>

@@ -47,8 +47,11 @@
 
                         <div class="row watermark">
                             <div class="col-xs-6">
-                                <strong>Action(s) requested :</strong>
-                                <div class="mt256">
+                                <div class="minh250">
+                                    <strong>Action(s) requested :</strong>
+                                    <div class="mt8" t-field="o.intervention_todo" />
+                                </div>
+                                <div>
                                     <strong>Observation(s) :</strong>
                                 </div>
                             </div>
