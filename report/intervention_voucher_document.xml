@@ -27,6 +27,7 @@
                                     <th t-if="o.number_request">Intervention #</th>
                                     <th t-if="o.date_planned_start">Date</th>
                                     <th t-if="o.date_planned_start and o.date_planned_end">Hours</th>
+                                    <th t-if="o.partner_shipping_id">Intervention location</th>
                                 </tr>
                             </thead>
 
@@ -41,14 +42,18 @@
                                         <span> to </span>
                                         <span t-field="o.date_planned_end" t-field-options="{&quot;format&quot;: &quot;HH:mm&quot;}" />
                                     </td>
+                                    <td t-if="o.partner_shipping_id"><span t-field="o.partner_shipping_id" /></td>
                                 </tr>
                             </tbody>
                         </table>
 
-                        <div class="row">
+                        <div class="row watermark">
                             <div class="col-xs-6">
-                                <strong>Action(s) requested :</strong>
-                                <div class="mt256">
+                                <div class="minh250">
+                                    <strong>Action(s) requested :</strong>
+                                    <div class="mt8" t-field="o.intervention_todo" />
+                                </div>
+                                <div>
                                     <strong>Observation(s) :</strong>
                                 </div>
                             </div>
@@ -56,7 +61,7 @@
                             <div class="col-xs-6">
                                 <div class="row">
                                     <div class="col-xs-12">
-                                        <div class="panel panel-default brad0">
+                                        <div class="panel panel-default brad0" name="interlocutor">
                                             <div class="panel-heading brad0">
                                                 <strong>Name and visa of the interlocutor</strong>
                                             </div>
@@ -66,7 +71,7 @@
                                     </div>
 
                                     <div class="col-xs-12">
-                                        <div class="panel panel-default brad0">
+                                        <div class="panel panel-default brad0" name="before-intervention">
                                             <div class="panel-heading brad0">
                                                 <strong>Action(s) carried out during the intervention</strong>
                                             </div>
@@ -95,7 +100,7 @@
 
                                 <div class="row mt64" id="signature">
                                     <div class="col-xs-6">
-                                        <strong>Responsive :</strong>
+                                        <strong>Responsible :</strong>
                                     </div>
                                     <div class="col-xs-6">
                                         <strong>Signature and stamp of the beneficiary customer :</strong>
@@ -104,7 +109,7 @@
                             </div>
 
                             <div class="col-xs-6">
-                                <div class="panel panel-default brad0">
+                                <div class="panel panel-default brad0" name="after-intervention">
                                     <div class="panel-heading brad0">
                                         <strong>After Intervention</strong>
                                     </div>
